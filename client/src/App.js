@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import './App.css';
+import './assets/css/App.css'
 import { Container } from 'reactstrap'
 
 import { Provider } from 'react-redux'

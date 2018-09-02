@@ -40,13 +40,13 @@ class ItemModal extends Component {
     render() {
         return (
             <div>
-                <Button
-                    color="dark"
+                <button
+                    className="btn-add"
                     style={{marginBottom: '2rem'}}
                     onClick={this.toggle}
                 >
                     Add Item
-                </Button>
+                </button>
 
                 <Modal
                     isOpen={this.state.modal}

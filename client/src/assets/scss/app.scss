@@ -1,0 +1,135 @@
+//Theme pallete
+//$theme1: #6d819c;
+//$theme2: #e4e7ec;
+//$theme3: #55967e;
+//$fontColor: #263959;
+
+
+$theme1: #263959;
+$theme2: #6d819c;
+$theme3: #55967e;
+$fontColor: #e4e7ec;
+
+//ShoppingList TransitionGroup trasition
+.remove-btn {
+    margin-right: 0.5rem;
+}
+
+.fade-enter {
+    opacity: 0.01;
+}
+
+.fade-enter-active {
+    opacity: 1;
+    transition: opacity 500ms ease-in;
+}
+
+.fade-exit {
+    opacity: 1;
+}
+
+.fade-exit-active {
+    opacity: 0.1;
+    transition: opacity 500ms ease-in;
+}
+
+//Navbar
+
+body {
+    color: $theme1;
+}
+
+.navbar {
+    background-color: $theme1;
+    margin: 0;
+    padding: .5rem 0 0 0;
+    overflow: hidden;
+
+    .navbar-brand {
+        padding-left: .5rem;
+        padding-right: .5rem;
+        vertical-align: middle;
+    }
+
+    a {
+        color: $fontColor;
+        padding-bottom: .5rem;
+        margin: 0px;
+        vertical-align: middle;
+
+        &:hover {
+            background-color: lighten($color: $theme1, $amount: 10);
+            border-radius: 10px 10px 0 0;
+        }
+
+        @media (max-width: 575.98px) {
+            &:hover {
+                background-color: lighten($color: $theme1, $amount: 10);
+                border-radius: 0;
+            }
+        }
+        
+    }
+
+    .navbar-toggler {
+        margin-right: 1rem;
+        margin-bottom: .5rem;
+
+        &:hover {
+            background-color: lighten($color: $theme3, $amount: 10);
+            border-color: $fontColor;
+        }
+
+        &:active {
+            outline: none;
+        }
+    
+        &:focus {
+            outline: none;
+        }
+    }
+}
+
+//ShippingListPage
+button {
+    padding: 7px 15px;
+    border-radius: 3px;
+    border: none;
+    color: $fontColor;
+}
+
+.remove-btn {
+    background-color: $theme3;
+    
+
+    &:hover {
+        background-color: lighten($color: $theme3, $amount: 10);
+    }
+
+    &:active {
+        background-color: darken($color: $theme3, $amount: 10);
+        outline: none;
+    }
+
+    &:focus {
+        outline: none;
+    }
+}
+
+.btn-add {
+    background-color: $theme1;
+
+    &:hover {
+        background-color: lighten($color: $theme1, $amount: 7);
+    }
+
+    &:active {
+        background-color: darken($color: $theme1, $amount: 10);
+        outline: none;
+    }
+
+    &:focus {
+        outline: none;
+    }
+}
+

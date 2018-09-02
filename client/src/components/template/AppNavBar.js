@@ -25,7 +25,7 @@ class AppNavbar extends Component {
 
     render() {
         return(
-            <Navbar color="dark" dark expand="sm" className="mb-5"> 
+            <Navbar expand="sm" dark className="mb-5"> 
                 <Container>
                     <NavbarBrand href="/">
                         Shopping!
@@ -34,7 +34,7 @@ class AppNavbar extends Component {
                     <Collapse isOpen = {this.state.isOpen} navbar>
                         <Nav className="ml-auto" navbar>
                             <NavItem>
-                                <NavLink href="#">
+                                <NavLink href="https://github.com/arttyalice">
                                 Github
                                 </NavLink>
                             </NavItem>

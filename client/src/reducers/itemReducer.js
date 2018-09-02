@@ -2,7 +2,8 @@ import {
     GET_ITEMS,
     ADD_ITEM,
     DELETE_ITEM,
-    ITEMS_LOADING 
+    ITEMS_LOADING,
+    UPDATE_ITEM
 } from '../action/types';
 
 const initialState = {
@@ -35,6 +36,12 @@ export default function(state = initialState, action) {
             return {
                 ...state,
                 loading: true
+            };
+
+        case UPDATE_ITEM:
+            return {
+                ...state,
+                items: state.items.filter(item => item._id !== action.payload.id)
             };
 
         default:

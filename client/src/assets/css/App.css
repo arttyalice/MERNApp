@@ -1,0 +1,104 @@
+.remove-btn {
+  margin-right: 0.5rem;
+}
+
+.fade-enter {
+  opacity: 0.01;
+}
+
+.fade-enter-active {
+  opacity: 1;
+  transition: opacity 500ms ease-in;
+}
+
+.fade-exit {
+  opacity: 1;
+}
+
+.fade-exit-active {
+  opacity: 0.1;
+  transition: opacity 500ms ease-in;
+}
+
+body {
+  color: #263959;
+}
+
+.navbar {
+  background-color: #263959;
+  margin: 0;
+  padding: 0.5rem 0 0 0;
+  overflow: hidden;
+}
+.navbar .navbar-brand {
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  vertical-align: middle;
+}
+.navbar a {
+  color: #e4e7ec;
+  padding-bottom: 0.5rem;
+  margin: 0px;
+  vertical-align: middle;
+}
+.navbar a:hover {
+  background-color: #35507d;
+  border-radius: 10px 10px 0 0;
+}
+@media (max-width: 575.98px) {
+  .navbar a:hover {
+    background-color: #35507d;
+    border-radius: 0;
+  }
+}
+.navbar .navbar-toggler {
+  margin-right: 1rem;
+  margin-bottom: 0.5rem;
+}
+.navbar .navbar-toggler:hover {
+  background-color: #70ae97;
+  border-color: #e4e7ec;
+}
+.navbar .navbar-toggler:active {
+  outline: none;
+}
+.navbar .navbar-toggler:focus {
+  outline: none;
+}
+
+button {
+  padding: 7px 15px;
+  border-radius: 3px;
+  border: none;
+  color: #e4e7ec;
+}
+
+.remove-btn {
+  background-color: #55967e;
+}
+.remove-btn:hover {
+  background-color: #70ae97;
+}
+.remove-btn:active {
+  background-color: #437563;
+  outline: none;
+}
+.remove-btn:focus {
+  outline: none;
+}
+
+.btn-add {
+  background-color: #263959;
+}
+.btn-add:hover {
+  background-color: #314972;
+}
+.btn-add:active {
+  background-color: #172235;
+  outline: none;
+}
+.btn-add:focus {
+  outline: none;
+}
+
+/*# sourceMappingURL=App.css.map */

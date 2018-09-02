@@ -1,3 +1,3 @@
 module.exports = {
-    mongoUri: 'mongodb://UrlToYourDbSite/DatabaseName'
+    mongoUri: 'mongodb://MongoUrl/DbName'
 }
